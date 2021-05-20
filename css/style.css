@@ -1,7 +1,9 @@
 /* common */
 
-
-
+.bgr_fix {
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* fine common */
 
@@ -15,11 +17,27 @@ header img {
 }
 /* fine header */
 
+/* returnal */
+
+/* returnal */
+
+.returnal {
+    height: 675px;
+    background-image:url(../img/jumbo-bg.png);
+    background-color: black;
+}
+
+.returnal img {
+    height: 3rem;
+}
 
 
 
 
-
+.it_takes_two {
+    height: 956px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
 
 
 
@@ -42,6 +60,3 @@ section {
     border: 1px solid red;
 }
 
-.returnal, .it_takes_two {
-    height: 300px;
-}
