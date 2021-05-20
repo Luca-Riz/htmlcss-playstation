@@ -1,5 +1,17 @@
-body {
-    background-color: green;
+/* common */
+
+
+
+
+/* fine common */
+
+/* header */
+header {
+    background-color: black;
+}
+
+header img {
+    width: 50px;
 }
 
 
@@ -10,10 +22,8 @@ body {
 
 
 
-
-
-
 /* debug */
+
 .box {
     height: 50px;
     min-width: 20px;
