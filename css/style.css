@@ -13,6 +13,10 @@
     color: #0070d1;
 }
 
+.ms_white {
+    color: white;
+}
+
 .bgr_fix img {
     width: 280px;
 }
@@ -37,12 +41,7 @@ header img {
     background-color: black;
 }
 
-
-
 /* fine returnal */
-
-
-
 
 /* it takes two */
 .it_takes_two {
@@ -50,8 +49,14 @@ header img {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-
 /* fine it takes two */
+
+/* nuove uscite */
+.nuove_uscite {
+    background-color: #1f1f1f;
+}
+
+/* fine nuove uscite */
 
 /* debug */
 
