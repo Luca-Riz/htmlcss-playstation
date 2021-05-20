@@ -19,6 +19,7 @@ body {
     min-width: 20px;
     width: 100%;
     background-color: greenyellow;
+    border: 1px solid black;
 }
 
 section {
@@ -29,6 +30,6 @@ section {
     border: 1px solid red;
 }
 
-.returnal {
+.returnal, .it_takes_two {
     height: 300px;
 }
