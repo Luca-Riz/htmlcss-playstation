@@ -9,6 +9,14 @@
     border-radius: 15px;
 }
 
+.ps_blue {
+    color: #0070d1;
+}
+
+.bgr_fix img {
+    width: 280px;
+}
+
 /* fine common */
 
 /* header */
@@ -23,28 +31,27 @@ header img {
 
 /* returnal */
 
-/* returnal */
-
 .returnal {
     height: 675px;
     background-image:url(../img/jumbo-bg.png);
     background-color: black;
 }
 
-.returnal img {
-    height: 3rem;
-}
+
+
+/* fine returnal */
 
 
 
 
+/* it takes two */
 .it_takes_two {
     height: 956px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 
-
+/* fine it takes two */
 
 /* debug */
 
