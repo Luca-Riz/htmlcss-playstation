@@ -53,8 +53,18 @@ header img {
 .nuove_uscite {
     background-color: #1f1f1f;
 }
-
 /* fine nuove uscite */
+
+/* play plus */
+.play_plus {
+    background-color: #bebcbb;
+}
+
+.play_plus button {
+    background-color: #d9dadc;
+}
+
+/* fine play plus */
 
 /* debug */
 
