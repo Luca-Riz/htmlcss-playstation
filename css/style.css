@@ -73,22 +73,12 @@ header img {
 .footer_bottom {
     background-color: #00439c;
 }
+
+.footer_bottom ul li {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
 /* footer bottom */
-
-/* debug */
-
-.box {
-    height: 50px;
-    width: 100px;
-    background-color: greenyellow;
-    border: 1px solid black;
-}
-
-section {
-    border: 1px solid orange;
-}
-
-.container {
-    border: 1px solid red;
-}
 
