@@ -59,12 +59,15 @@ header img {
 .play_plus {
     background-color: #bebcbb;
 }
-
-.play_plus button {
+/* play plus e now */
+.play_plus button, .play_now button {
     background-color: #d9dadc;
 }
-
-/* fine play plus */
+/* play now */
+.play_now {
+    background-color: #161c3b;
+}
+/* fine play now */
 
 /* debug */
 
