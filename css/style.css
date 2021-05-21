@@ -73,8 +73,7 @@ header img {
 
 .box {
     height: 50px;
-    min-width: 20px;
-    width: 100%;
+    width: 100px;
     background-color: greenyellow;
     border: 1px solid black;
 }
