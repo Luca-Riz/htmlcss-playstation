@@ -44,22 +44,54 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
 
-                <!-- inizio nav giochi -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <!-- inizio nav giochi - megamenu funzia-->
+                <li class="nav-item dropdown has-megamenu">
+                    <a class="nav-link" href="#" data-bs-toggle="dropdown">
                         Giochi
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <div class="dropdown-menu megamenu" role="menu">
+                        
+                        <!-- ======= megamenu ======= -->
+                        <div class="mm_top d-flex justify-content-center text-center" >
+
+                            <div class="mx-3" role="button" tabindex="0">
+                                <img src="img/play-menu-ico.png" alt="playstation ico">
+                                <h6>PS5</h6>
+                            </div>
+
+                            <div class="mx-3" role="button" tabindex="0">
+                                <img src="img/play-menu-ico.png" alt="playstation ico">
+                                <h6>PS5</h6>
+                            </div>
+
+                            <div class="mx-3" role="button" tabindex="0">
+                                <img src="img/play-menu-ico.png" alt="playstation ico">
+                                <h6>PS5</h6>
+                            </div>
+                            
+                        </div>
+
+                        <hr>
+
+                        <div class="mm_bottom">
+
+                            <ul class="text-center">
+                                <li role="button" tabindex="0">Sub link acquisti</li>
+                                <li role="button" tabindex="0">Sub link</li>
+                                <li role="button" tabindex="0">Sub link</li>
+                            </ul>
+
+                        </div>
+                        <!-- =======fine megamenu======= -->
+                    
+                        
+                    </div> <!-- dropdown-mega-menu.// -->
                 </li>
                 <!-- fine nav giochi -->
                 
                 <!-- inizio nav hardware -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Hardware
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -72,7 +104,7 @@
                 
                 <!-- inizio nav Servizi -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Servizi
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -85,7 +117,7 @@
                 
                 <!-- inizio nav Novità -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Novità
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -98,7 +130,7 @@
                 
                 <!-- inizio nav Fai acquisti -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Fai acquisti
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -111,7 +143,7 @@
                 
                 <!-- inizio nav Supporto -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Supporto
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -124,23 +156,23 @@
             </ul>
                 
 
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse d-flex justify-content-start justify-content-lg-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
                     <!-- inizio nav My PlayStation -->
                     <li class="nav-item dropdown ms-auto">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         My PlayStation
                         </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </li>
                 <!-- fine nav My PlayStation -->
-                </ul>
-                
-                <button type="button" class="btn btn-dark rounded-pill mx-3">Accedi</button>
+            </ul>
+            
+            <button type="button" class="btn btn-dark rounded-pill mx-3">Accedi</button>
                 
                 <!-- btn search -->
                 <a href="#" class="fs-5 text-dark">
