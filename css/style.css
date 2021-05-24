@@ -122,3 +122,11 @@ header img {
 /* ============ mobile view .end// ============ */
 
 
+/* prove */
+.mm_bottom li {
+    display: inline-block;
+}
+
+.navbar-nav li a img {
+    height: 1rem;
+}
