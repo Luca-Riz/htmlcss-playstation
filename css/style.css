@@ -127,6 +127,20 @@ header img {
     display: inline-block;
 }
 
+.nav-link::after {
+    content:"";
+    width: 0.75rem;
+    height: 0.75rem;
+    display: inline-block;
+    background-image: url(../img/chevron-down-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-link {
+    display: inline-block;
+}
+
 .navbar-nav li a img {
     height: 1rem;
 }
