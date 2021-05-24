@@ -106,7 +106,7 @@ header img {
 @media all and (min-width: 992px) {
 
   .navbar .has-megamenu{position:static!important;}
-  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top: -1px;}
 
 }	
 /* ============ desktop view .end// ============ */
