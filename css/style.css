@@ -125,7 +125,7 @@ header img {
 /* prove */
 
 .mm_top > div:hover {
-    box-shadow: 4px 4px 4px grey, -4px -4px 4px grey, 4px -4px 4px grey, -4px 4px 4px grey;
+    box-shadow: 4px 4px 4px lightgrey, -4px -4px 4px lightgrey, 4px -4px 4px lightgrey, -4px 4px 4px lightgrey;
 }
 
 .mm_bottom li {
