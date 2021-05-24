@@ -123,6 +123,11 @@ header img {
 
 
 /* prove */
+
+.mm_top > div:hover {
+    box-shadow: 4px 4px 4px grey, -4px -4px 4px grey, 4px -4px 4px grey, -4px 4px 4px grey;
+}
+
 .mm_bottom li {
     display: inline-block;
 }
@@ -141,6 +146,19 @@ header img {
     display: inline-block;
 }
 
-.navbar-nav li a img {
-    height: 1rem;
+.mm_bottom .text-center li:before {
+    content: "";
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #0070d1;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px 2px 10px;
+
 }
+
+.mm_bottom .text-center li:hover {
+    color: #0070d1;
+}
+
+
