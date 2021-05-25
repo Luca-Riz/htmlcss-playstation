@@ -159,19 +159,14 @@ header img {
     display: inline-block;
 }
 
-.nav-link::after {
-    content:"";
-    width: 0.75rem;
+.nav-link img {
     height: 0.75rem;
-    display: inline-block;
-    background-image: url(../img/chevron-down-solid.svg);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-/* attenzionare */
-.nav-link::after:active {
-    background-image: url(../img/chevron-down-solid-hover.svg);
+/* freccina rotante su classe bootstrap che appare */
+.nav-link.show img {
+    transform: rotate(180deg);
+    transition: transform 500ms;
 }
 
 .nav-link {
@@ -186,7 +181,6 @@ header img {
     border-radius: 50%;
     display: inline-block;
     margin: 0 5px 2px 10px;
-
 }
 
 .mm_bottom .text-center li:hover {
