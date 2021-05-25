@@ -173,6 +173,14 @@ header img {
     display: inline-block;
 }
 
+a.nav-link:hover{
+    color: #0070d1 !important;
+}
+
+.nav-link img:hover{
+    color: #0070d1;
+}
+
 .mm_bottom .text-center li:before {
     content: "";
     height: 0.5rem;
