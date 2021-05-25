@@ -42,6 +42,14 @@ body {
 .btn-primary {
     outline-color: #0d6efd;
 }
+
+.ms_btn_grey {
+    outline-color: #d9dadc;
+}
+
+.ms_btn_primary {
+    outline-color: #0d6efd;
+}
 /* fine outline common */
 /* ---------------fine common--------------- */
 
